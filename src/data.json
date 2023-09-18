@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1, 
+    "username": "johntest", 
+    "password": "Johndoe2002", 
+    "firstName": "John", 
+    "lastName": "Doe", 
+    "cardId": "3333333333333", 
+    "birthDate": "2002-10-19", 
+    "mobileNumber": "0833333333", 
+    "email": "John.Doe@gmail.com", 
+    "height": "172", 
+    "weight": "50", 
+    "address": "100 ม.2",
+    "subdistrict": "ในเมือง", 
+    "district": "เมืองขอนแก่น",
+    "province": "ขอนแก่น",
+    "postcode": "40000"
+  },
+  {
+    "Id": 2, 
+    "username": "pattapond", 
+    "password": "Bbbbbbbb22", 
+    "firstName": "Patta", 
+    "lastName": "Tkn", 
+    "cardId": "1111111111111", 
+    "birthDate": "2000-10-02", 
+    "mobileNumber": "0811111111", 
+    "email": "patta@gmail.com", 
+    "height": "166", 
+    "weight": "66", 
+    "address": "100 ม.2",
+    "subdistrict": "หนองปรือ", 
+    "district": "บางละมุง",
+    "province": "ชลบุรี",
+    "postcode": "40000"
+  }
+]

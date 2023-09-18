@@ -1,0 +1,11 @@
+.toggle-password {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-20%);
+}
+
+.toggle-password:hover {
+  cursor: pointer; /* Change the cursor to pointer on hover */
+}

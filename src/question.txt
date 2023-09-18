@@ -1,0 +1,83 @@
+จงสร้างหน้า CRUD สำหรับจัดการสมาชิก ตามฟิลด์ที่ระบุดังต่อไปนี้ (โดยใช้ react)
+
+*CRUD คือ create, read, update, delete
+**ใช้ state ในการจัดการข้อมูล
+
+const example = {
+    Id: 1, //ให้ระบบ auto increment
+    username: 'johntest', //(ต้องรับเฉพาะตัวอักษรอังกฤษ)
+    password: 'Johndoe2002', //(ต้องรับตัวอักษรอังกฤษ และตัวเลข ขั้นต่ำ 8 digit และมีตัวอักษรตัวใหญ่อย่างน้อย 1 ตัว), (ต้องมี textfield สำหรับ verify password)
+    firstName: 'John', //(ต้องรับเฉพาะตัวอักษร ไทย-อังกฤษ)
+    lastName: 'Doe', //(ต้องรับเฉพาะตัวอักษร ไทย-อังกฤษ)
+    cardId: '3333333333333', //(ต้องรับเฉพาะตัวเลข 13 หลัก)
+    birthDate: '2002-10-19', 
+    mobileNumber: '0833333333', //(ต้องรับเฉพาะตัวเลข 10 หลัก)
+    email: 'John.Doe@gmail.com', //(ต้องเป็น email format เท่านั้น)
+    height: '172', //(ต้องรับเฉพาะตัวเลข)
+    weight: '50', //(ต้องรับเฉพาะตัวเลข)
+    address: '100 ม.2',
+    subdistrict: 'ในเมือง', 
+    district: 'เมือง',
+    province: 'ขอนแก่น',
+    postcode: '40000', 
+  }
+
+สามารถใช้ข้อมูลจังหวัด,อำเภอ,ตำบล จากไฟล์ province.json
+
+
+  // const [username, setUsername] = useState('');
+  // const [password, setPassword] = useState('');
+  // const [firstName, setFirstName] = useState('');
+  // const [lastName, setLastName] = useState('');
+  // const [cardId, setCardId] = useState('');
+  // const [birthDate, setBirthDate] = useState('');
+  // const [mobileNumber, setMobileNumber] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [height, setHeight] = useState('');
+  // const [weight, setWeight] = useState('');
+  // const [address, setAddress] = useState('');
+  // const [subdistrict, setSubdistrict] = useState('');
+  // const [district, setDistrict] = useState('');
+  // const [province, setProvince] = useState('');
+  // const [postcode, setPostcode] = useState('');
+
+
+
+
+    let a = username,
+      b = password,
+      c = firstName,
+      d = lastName,
+      e = cardId,
+      f = birthDate,
+      g = mobileNumber,
+      h = email,
+      i = height,
+      j = weight,
+      k = address,
+      l = subdistrict,
+      m = district,
+      n = province,
+      o = postcode;
+
+    DataList.push({
+      Id: uniqueId,
+      username: a,
+      password: b,
+      firstName: c,
+      lastName: d,
+      cardId: e,
+      birthDate: f,
+      mobileNumber: g,
+      email: h,
+      height: i,
+      weight: j,
+      address: k,
+      subdistrict: l,
+      district: m,
+      province: n,
+      postcode: o
+    });
+
+    history("/")
+  }
